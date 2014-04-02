@@ -8,11 +8,17 @@
   <%= analytics_init if Rails.env.production? %>
 </head>
 
-<body>
-  <%= render "layouts/header" %>
-  <div class="container">
-  <%= yield %>
+<div id="background-images">
+  <body>
+  
+    
+    <%= render "layouts/header" %>
+    
+    <div class="container">
+      <%= yield %>
+    </div>
 
-  </div>
-</body>
+  
+  </body>
+</div>
 </html>

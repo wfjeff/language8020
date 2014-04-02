@@ -1,8 +1,8 @@
 class Word < ActiveRecord::Base
   belongs_to :language
 
-  def translation
-    "a translation"
+  # def translation
+    # "a translation"
     # word_name = self.word
     # lang_from = self.language.language_code
     # begin
@@ -18,6 +18,6 @@ class Word < ActiveRecord::Base
     # end
     
     # return_string ||= "translation not found"
-  end
+  # end
 
 end
